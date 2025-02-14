@@ -5,7 +5,8 @@ const gif = document.querySelector(".gif");
 
 // Change text and gif when the Yes button is clicked
 yesBtn.addEventListener("click", () => {
-  question.innerHTML = "I love you";
+  question.innerHTML = `Maged: Let's go on a date. 
+  Sandy: hmmmmmm it's a boiler.`;
   gif.src = "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExeHdma3gxdGJzaG5uZjF1ZXk4YjlsZ3Nyemc4eWhuc2wwM2FtbTB6cCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l41JWw65TcBGjPpRK/giphy.gif";
 });
 
